@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous'>
+
+    <!-- Optional theme -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css' integrity='sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp' crossorigin='anonymous'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet'>
+
+
+ <link rel='stylesheet' type='text/css' href='../styles/admin-style.css'>
+ <link rel='stylesheet' type='text/css' href='../styles/login.css'>
+
+	<title>Administrator</title>
+</head>
+<body>
+
+ <div id="content">
+   <div id='formWrapper'>
+  <div id='formContainer'>
+    <h1 class='title-login'>Log In</h1>
+    <form action='' method='POST' id='loginForm'>
+      <div class='group-login'>
+        <label class='label-login'  for='userName'>Username :</label>
+        <input class='input-text' placeholder='username' type='text' name='userName' id='userName'>
+      </div>
+      <div class='group-login'>
+        <label class='label-login'  for='userPassword'>Password :</label>
+        <input class='input-text' placeholder='password' type='password' name='userPassword' id='userPassword'>
+      </div>
+
+      <input class='submit-input' type='submit' name='logInBtn' id='logInBtn' value='Logi In'>
+    </form>
+  </div>
+  <div class='overlay'></div>
+</div>
+ </div>
+
+<script
+  src='https://code.jquery.com/jquery-3.2.1.js'
+  integrity='sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE='
+  crossorigin='anonymous'></script>
+  <script type='text/javascript' src='../js/ajax-script.js'></script>
+</body>
+</html>

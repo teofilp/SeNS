@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#formWrapper {
+	width: 100%;
+	height: 100vh;
+	background-image: url("../images/nature.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background-color: rgba(0, 0, 0, .2);
+}
+
+#formContainer {
+	width: 600px;
+	height: 420px;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: 3;
+	box-shadow: 10px 5px 45px black;
+}
+
+.group-login {
+	width: 100%;
+	margin-bottom: 30px;
+	float: left;
+}
+
+.label-login {
+	font-family: Open Sans Condensed, sans-serif;
+	margin-top: 15px;
+	margin-left: 50px;
+	font-size: 1.3em;
+}
+
+.input-text {
+	width: 60%;
+	height: 35px;
+	float: right;
+	margin-right: 50px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #3399ff;
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 1.3em;
+	padding-left: 20px;
+}
+
+::-webkit-input-placeholder { 
+  	color: grey;
+  	font-style: italic;
+}
+
+.title-login {
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 3em;
+	color: #3399ff;
+	text-align: center;
+	margin-bottom: 70px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.submit-input {
+	width: 150px;
+	height: 50px;
+	margin-left: calc(50% - 75px);
+	margin-top: 30px;
+	background-color: #3399ff;
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 2.3em;
+	color: white;
+	border: none;
+	transition: all .4s;
+	float: none;
+	padding: 0;
+}
+
+.submit-input:hover {
+	background-color: #136eca;
+}
+
+.warning-login {
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 2.5em;
+	color: red;
+	margin-top: 0;
+	text-align: center;
+}
+
+.warning-wrapper {
+	width: 100%;
+	position: absolute;
+	top: -60px;
+}
